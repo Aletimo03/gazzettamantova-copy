@@ -1,0 +1,39 @@
+/* Basic Reset/Normalization */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    line-height: 1;
+}
+
+/* Global Font (You can replace this with your desired font) */
+body {
+    font-family: sans-serif; /* Example font */
+}
+
+.app-container {
+    background-image: url('../assets/images/lebrons-background.png'); /* Replace with your actual image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Key property for fixed background */
+    min-height: 100vh; /* Ensure it covers the entire viewport height */
+    background-color: #f4f4f4; /* Example fallback color */
+
+    /* Set the width to 80% of the viewport */
+    width: 80%;
+
+    /* Center the layout on the page */
+    margin: 0 auto;
+}
+
+/* You might have other global styles below this line */

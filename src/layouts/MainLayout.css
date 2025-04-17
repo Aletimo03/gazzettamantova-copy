@@ -1,0 +1,24 @@
+/* MainLayout.css */
+
+
+.main-layout {
+    position: relative;
+    min-height: 100vh; /* Ensure the layout takes the full viewport height */
+  /*  background: url('src/assets/images/lebrons-background.png') no-repeat center center fixed; /* Fixed background */
+    background-size: cover;
+}
+
+.layout-wrapper {
+    max-width: 1200px; /* Width smaller than the page */
+    margin: 0 auto; /* Center the layout */
+    padding: 20px; /* Space around the content */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content */
+    overflow-y: auto; /* Ensure content can scroll */
+    min-height: 100vh; /* Make sure content area takes up at least the full height */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for a little depth */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}

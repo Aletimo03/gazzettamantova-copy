@@ -1,0 +1,18 @@
+.advertisement {
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-content {
+    text-align: center;
+    color: #888;
+}
+
+.ad-content p:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,144 @@
+/* Footer.css */
+.footer {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    color: #333; /* Dark text color */
+    font-size: 0.9rem;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-edicola, .footer-quotidiano {
+    text-align: center;
+}
+
+.footer-edicola img, .footer-quotidiano img {
+    max-width: 150px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.footer-top h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.footer-top a {
+    color: #003366; /* Dark blue link color */
+    text-decoration: none;
+}
+
+.footer-top a:hover {
+    text-decoration: underline;
+}
+
+.footer-middle {
+    margin-bottom: 20px;
+}
+
+.footer-middle hr {
+    border: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #003366;
+}
+
+.footer-secondary-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-secondary-links a {
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-secondary-links a.button {
+    background-color: #003366;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.footer-secondary-links a.button:hover {
+    background-color: #002244;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-bottom h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.group-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.group-logos img {
+    max-height: 30px;
+    width: auto;
+}
+
+.footer-bottom p {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+.copyright {
+    font-size: 0.7rem;
+    color: #777;
+}
+
+.footer-number {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 0.8rem;
+    color: #777;
+}

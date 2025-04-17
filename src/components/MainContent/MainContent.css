@@ -1,0 +1,43 @@
+.main-content {
+    padding: 20px 0;
+}
+
+.content-section {
+    margin-top: 20px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    padding-left: 30px;
+}
+
+.section-header h2::before {
+    content: "►";
+    position: absolute;
+    left: 0;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.main-article h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.article-preview {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #444;
+}
