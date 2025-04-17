@@ -25020,7 +25020,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./components/Header/Header":"4jRi1","./components/MainHeader/MainHeader":"8ZDbJ","./components/NavBar/NavBar":"gdLmX","./components/MainContent/MainContent":"ddHlM","./components/Advertisement/Advertisement":"bRCXy","./components/Footer/Footer":"6OIfi","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./layouts/MainLayout":"7mEAN","react":"jMk1U"}],"4jRi1":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./components/Header/Header":"4jRi1","./components/MainHeader/MainHeader":"8ZDbJ","./components/NavBar/NavBar":"gdLmX","./components/MainContent/MainContent":"ddHlM","./components/Advertisement/Advertisement":"bRCXy","./components/Footer/Footer":"6OIfi","./layouts/MainLayout":"7mEAN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4jRi1":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$d2f3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$d2f3.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -25354,7 +25354,7 @@ $RefreshReg$(_c, "Header");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Header.css":"cYUAV","react-icons/fa":"dS1yL","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","url:../../assets/images/placeholder-logo.png":"5zS2r","../SidebarMenu/SidebarMenu":"aUfdI"}],"cYUAV":[function() {},{}],"dS1yL":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Header.css":"cYUAV","react-icons/fa":"dS1yL","../SidebarMenu/SidebarMenu":"aUfdI","url:../../assets/images/placeholder-logo.png":"5zS2r","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"cYUAV":[function() {},{}],"dS1yL":[function(require,module,exports,__globalThis) {
 // THIS FILE IS AUTO GENERATED
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -54765,7 +54765,434 @@ var DefaultContext = {
 };
 var IconContext = (0, _reactDefault.default).createContext && /*#__PURE__*/ (0, _reactDefault.default).createContext(DefaultContext);
 
-},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"7h6Pi":[function(require,module,exports,__globalThis) {
+},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"aUfdI":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$eea2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$eea2.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$eea2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _sidebarMenuCss = require("./SidebarMenu.css");
+var _fa = require("react-icons/fa");
+const SidebarMenu = ({ isOpen, onClose })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("aside", {
+                className: `sidebar-menu ${isOpen ? 'open' : ''}`,
+                role: "dialog",
+                "aria-modal": "true",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "sidebar-header",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            onClick: onClose,
+                            className: "close-btn",
+                            "aria-label": "Chiudi menu",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fa.FaTimes), {}, void 0, false, {
+                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                lineNumber: 12,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                            lineNumber: 11,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                        lineNumber: 10,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "sidebar-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                                className: "search-form",
+                                role: "search",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "search",
+                                        placeholder: "Cerca nel sito",
+                                        "aria-label": "Cerca"
+                                    }, void 0, false, {
+                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                        lineNumber: 18,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                        type: "submit",
+                                        "aria-label": "Cerca",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fa.FaSearch), {}, void 0, false, {
+                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                            lineNumber: 20,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                        lineNumber: 19,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                lineNumber: 17,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "menu-blocks",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "menu-block",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                children: "Territori"
+                                            }, void 0, false, {
+                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                lineNumber: 27,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Asola"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 29,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 29,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Bozzolo"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 30,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 30,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Canneto sull'Oglio"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 31,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 31,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Curtatone"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 32,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 32,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Porto Mantovano"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 33,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 33,
+                                                        columnNumber: 33
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                lineNumber: 28,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                        lineNumber: 26,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "menu-block",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                children: "News"
+                                            }, void 0, false, {
+                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                lineNumber: 39,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Lombardia"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 41,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 41,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Italia"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 42,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 42,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Mondo"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 43,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 43,
+                                                        columnNumber: 33
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                lineNumber: 40,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                        lineNumber: 38,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "menu-block",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                children: "Argomenti"
+                                            }, void 0, false, {
+                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                lineNumber: 49,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Economia"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 51,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 51,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Sport"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 52,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 52,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Cultura"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 53,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 53,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Spettacoli"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 54,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 54,
+                                                        columnNumber: 33
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                lineNumber: 50,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                        lineNumber: 48,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "menu-block",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                children: "Servizi"
+                                            }, void 0, false, {
+                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                lineNumber: 60,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Cinema"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 62,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 62,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Meteo"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 63,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 63,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "#",
+                                                            children: "Traffico"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                            lineNumber: 64,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                        lineNumber: 64,
+                                                        columnNumber: 33
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                                lineNumber: 61,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                        lineNumber: 59,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                        lineNumber: 16,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                lineNumber: 9,
+                columnNumber: 13
+            }, undefined),
+            isOpen && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "sidebar-overlay",
+                onClick: onClose
+            }, void 0, false, {
+                fileName: "src/components/SidebarMenu/SidebarMenu.js",
+                lineNumber: 72,
+                columnNumber: 24
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+_c = SidebarMenu;
+exports.default = SidebarMenu;
+var _c;
+$RefreshReg$(_c, "SidebarMenu");
+
+  $parcel$ReactRefreshHelpers$eea2.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./SidebarMenu.css":"kqZJX","react-icons/fa":"dS1yL","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"kqZJX":[function() {},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -57046,434 +57473,7 @@ function $da9882e673ac146b$var$ErrorOverlay() {
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"5zS2r":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("placeholder-logo.7330e00b.png") + "?" + Date.now();
 
-},{}],"aUfdI":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$eea2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$eea2.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$eea2.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _sidebarMenuCss = require("./SidebarMenu.css");
-var _fa = require("react-icons/fa");
-const SidebarMenu = ({ isOpen, onClose })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("aside", {
-                className: `sidebar-menu ${isOpen ? 'open' : ''}`,
-                role: "dialog",
-                "aria-modal": "true",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "sidebar-header",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            onClick: onClose,
-                            className: "close-btn",
-                            "aria-label": "Chiudi menu",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fa.FaTimes), {}, void 0, false, {
-                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                lineNumber: 12,
-                                columnNumber: 25
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                            lineNumber: 11,
-                            columnNumber: 21
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                        lineNumber: 10,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "sidebar-content",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                                className: "search-form",
-                                role: "search",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                        type: "search",
-                                        placeholder: "Cerca nel sito",
-                                        "aria-label": "Cerca"
-                                    }, void 0, false, {
-                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                        lineNumber: 18,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        type: "submit",
-                                        "aria-label": "Cerca",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fa.FaSearch), {}, void 0, false, {
-                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                            lineNumber: 20,
-                                            columnNumber: 29
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                        lineNumber: 19,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                lineNumber: 17,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "menu-blocks",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "menu-block",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                children: "Territori"
-                                            }, void 0, false, {
-                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                lineNumber: 27,
-                                                columnNumber: 29
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Asola"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 29,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 29,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Bozzolo"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 30,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 30,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Canneto sull'Oglio"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 31,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 31,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Curtatone"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 32,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 32,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Porto Mantovano"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 33,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 33,
-                                                        columnNumber: 33
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                lineNumber: 28,
-                                                columnNumber: 29
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                        lineNumber: 26,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "menu-block",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                children: "News"
-                                            }, void 0, false, {
-                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                lineNumber: 39,
-                                                columnNumber: 29
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Lombardia"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 41,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 41,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Italia"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 42,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 42,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Mondo"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 43,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 43,
-                                                        columnNumber: 33
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                lineNumber: 40,
-                                                columnNumber: 29
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                        lineNumber: 38,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "menu-block",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                children: "Argomenti"
-                                            }, void 0, false, {
-                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                lineNumber: 49,
-                                                columnNumber: 29
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Economia"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 51,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 51,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Sport"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 52,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 52,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Cultura"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 53,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 53,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Spettacoli"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 54,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 54,
-                                                        columnNumber: 33
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                lineNumber: 50,
-                                                columnNumber: 29
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                        lineNumber: 48,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "menu-block",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                children: "Servizi"
-                                            }, void 0, false, {
-                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                lineNumber: 60,
-                                                columnNumber: 29
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Cinema"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 62,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 62,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Meteo"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 63,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 63,
-                                                        columnNumber: 33
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "#",
-                                                            children: "Traffico"
-                                                        }, void 0, false, {
-                                                            fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                            lineNumber: 64,
-                                                            columnNumber: 37
-                                                        }, undefined)
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                        lineNumber: 64,
-                                                        columnNumber: 33
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                                lineNumber: 61,
-                                                columnNumber: 29
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                        lineNumber: 59,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                                lineNumber: 24,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                        lineNumber: 16,
-                        columnNumber: 17
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                lineNumber: 9,
-                columnNumber: 13
-            }, undefined),
-            isOpen && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "sidebar-overlay",
-                onClick: onClose
-            }, void 0, false, {
-                fileName: "src/components/SidebarMenu/SidebarMenu.js",
-                lineNumber: 72,
-                columnNumber: 24
-            }, undefined)
-        ]
-    }, void 0, true);
-};
-_c = SidebarMenu;
-exports.default = SidebarMenu;
-var _c;
-$RefreshReg$(_c, "SidebarMenu");
-
-  $parcel$ReactRefreshHelpers$eea2.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./SidebarMenu.css":"kqZJX","react-icons/fa":"dS1yL","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"kqZJX":[function() {},{}],"8ZDbJ":[function(require,module,exports,__globalThis) {
+},{}],"8ZDbJ":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$7640 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$7640.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -57573,7 +57573,7 @@ $RefreshReg$(_c, "MainHeader");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./MainHeader.css":"gjRq0","../WeatherWidget/WeatherWidget":"2cqFf","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","url:../../assets/images/placeholder-main-logo.png":"7t7rl"}],"gjRq0":[function() {},{}],"2cqFf":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./MainHeader.css":"gjRq0","../WeatherWidget/WeatherWidget":"2cqFf","url:../../assets/images/placeholder-main-logo.png":"7t7rl","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"gjRq0":[function() {},{}],"2cqFf":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$c6ab = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$c6ab.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -58449,6 +58449,6 @@ $RefreshReg$(_c, "MainLayout");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./MainLayout.css":"2O9OC","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../components/MainHeader/MainHeader":"8ZDbJ"}],"2O9OC":[function() {},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire50e8", {}, "./", "/", "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./MainLayout.css":"2O9OC","../components/MainHeader/MainHeader":"8ZDbJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2O9OC":[function() {},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire50e8", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=gazzettamantova-copy.31b563d9.js.map
