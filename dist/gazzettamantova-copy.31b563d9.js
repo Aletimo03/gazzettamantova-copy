@@ -24958,8 +24958,6 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _header = require("./components/Header/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
-var _mainHeader = require("./components/MainHeader/MainHeader");
-var _mainHeaderDefault = parcelHelpers.interopDefault(_mainHeader);
 var _navBar = require("./components/NavBar/NavBar");
 var _navBarDefault = parcelHelpers.interopDefault(_navBar);
 var _mainContent = require("./components/MainContent/MainContent");
@@ -24968,45 +24966,75 @@ var _advertisement = require("./components/Advertisement/Advertisement");
 var _advertisementDefault = parcelHelpers.interopDefault(_advertisement);
 var _footer = require("./components/Footer/Footer");
 var _footerDefault = parcelHelpers.interopDefault(_footer);
-var _mainLayout = require("./layouts/MainLayout"); // Import the Footer component
+var _mainLayout = require("./layouts/MainLayout");
 var _mainLayoutDefault = parcelHelpers.interopDefault(_mainLayout);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "app-container",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
-                fileName: "src/App.js",
-                lineNumber: 13,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "content-wrapper",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainLayoutDefault.default), {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 15,
+                        lineNumber: 13,
                         columnNumber: 17
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _advertisementDefault.default), {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navBarDefault.default), {}, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 16,
+                        lineNumber: 14,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 14,
+                lineNumber: 12,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+                className: "content-wrapper",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainLayoutDefault.default), {}, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 18,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainContentDefault.default), {}, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 19,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 18,
+                lineNumber: 17,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("aside", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _advertisementDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 24,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 23,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 28,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 27,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 12,
+        lineNumber: 11,
         columnNumber: 9
     }, this);
 }
@@ -25020,7 +25048,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./components/Header/Header":"4jRi1","./components/MainHeader/MainHeader":"8ZDbJ","./components/NavBar/NavBar":"gdLmX","./components/MainContent/MainContent":"ddHlM","./components/Advertisement/Advertisement":"bRCXy","./components/Footer/Footer":"6OIfi","./layouts/MainLayout":"7mEAN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4jRi1":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./components/Header/Header":"4jRi1","./components/NavBar/NavBar":"gdLmX","./components/MainContent/MainContent":"ddHlM","./components/Advertisement/Advertisement":"bRCXy","./components/Footer/Footer":"6OIfi","./layouts/MainLayout":"7mEAN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4jRi1":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$d2f3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$d2f3.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -57473,180 +57501,6 @@ function $da9882e673ac146b$var$ErrorOverlay() {
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"5zS2r":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("placeholder-logo.7330e00b.png") + "?" + Date.now();
 
-},{}],"8ZDbJ":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$7640 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$7640.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$7640.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _mainHeaderCss = require("./MainHeader.css");
-var _weatherWidget = require("../WeatherWidget/WeatherWidget");
-var _weatherWidgetDefault = parcelHelpers.interopDefault(_weatherWidget);
-var _placeholderMainLogoPng = require("url:../../assets/images/placeholder-main-logo.png");
-var _placeholderMainLogoPngDefault = parcelHelpers.interopDefault(_placeholderMainLogoPng);
-const MainHeader = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "main-header",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "main-header-content",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "main-logo",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _placeholderMainLogoPngDefault.default),
-                            alt: "Test Logo"
-                        }, void 0, false, {
-                            fileName: "src/components/MainHeader/MainHeader.js",
-                            lineNumber: 12,
-                            columnNumber: 25
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/MainHeader/MainHeader.js",
-                        lineNumber: 11,
-                        columnNumber: 21
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "bottom-line",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "temperature",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _weatherWidgetDefault.default), {
-                                    temperature: 12,
-                                    location: 'Mantova'
-                                }, void 0, false, {
-                                    fileName: "src/components/MainHeader/MainHeader.js",
-                                    lineNumber: 18,
-                                    columnNumber: 29
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/components/MainHeader/MainHeader.js",
-                                lineNumber: 16,
-                                columnNumber: 25
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "date",
-                                children: "luned\xec, 14 aprile 2025"
-                            }, void 0, false, {
-                                fileName: "src/components/MainHeader/MainHeader.js",
-                                lineNumber: 20,
-                                columnNumber: 25
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/MainHeader/MainHeader.js",
-                        lineNumber: 15,
-                        columnNumber: 21
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/MainHeader/MainHeader.js",
-                lineNumber: 10,
-                columnNumber: 17
-            }, undefined)
-        }, void 0, false, {
-            fileName: "src/components/MainHeader/MainHeader.js",
-            lineNumber: 9,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/MainHeader/MainHeader.js",
-        lineNumber: 8,
-        columnNumber: 9
-    }, undefined);
-};
-_c = MainHeader;
-exports.default = MainHeader;
-var _c;
-$RefreshReg$(_c, "MainHeader");
-
-  $parcel$ReactRefreshHelpers$7640.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./MainHeader.css":"gjRq0","../WeatherWidget/WeatherWidget":"2cqFf","url:../../assets/images/placeholder-main-logo.png":"7t7rl","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"gjRq0":[function() {},{}],"2cqFf":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$c6ab = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$c6ab.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c6ab.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _weatherWidgetCss = require("./WeatherWidget.css");
-var _fa = require("react-icons/fa");
-const WeatherWidget = ({ temperature, location })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "weather-widget",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fa.FaCloud), {
-                className: "weather-icon"
-            }, void 0, false, {
-                fileName: "src/components/WeatherWidget/WeatherWidget.js",
-                lineNumber: 8,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "weather-info",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                        className: "temperature",
-                        children: [
-                            temperature,
-                            "\xb0"
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/WeatherWidget/WeatherWidget.js",
-                        lineNumber: 10,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                        className: "location",
-                        children: location
-                    }, void 0, false, {
-                        fileName: "src/components/WeatherWidget/WeatherWidget.js",
-                        lineNumber: 11,
-                        columnNumber: 17
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/WeatherWidget/WeatherWidget.js",
-                lineNumber: 9,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/WeatherWidget/WeatherWidget.js",
-        lineNumber: 7,
-        columnNumber: 9
-    }, undefined);
-};
-_c = WeatherWidget;
-exports.default = WeatherWidget;
-var _c;
-$RefreshReg$(_c, "WeatherWidget");
-
-  $parcel$ReactRefreshHelpers$c6ab.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./WeatherWidget.css":"6OpAh","react-icons/fa":"dS1yL","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6OpAh":[function() {},{}],"7t7rl":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("placeholder-main-logo.81dfd3b5.png") + "?" + Date.now();
-
 },{}],"gdLmX":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$56ef = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$56ef.init();
@@ -58449,6 +58303,180 @@ $RefreshReg$(_c, "MainLayout");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./MainLayout.css":"2O9OC","../components/MainHeader/MainHeader":"8ZDbJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2O9OC":[function() {},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire50e8", {}, "./", "/", "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./MainLayout.css":"2O9OC","../components/MainHeader/MainHeader":"8ZDbJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2O9OC":[function() {},{}],"8ZDbJ":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$7640 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$7640.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7640.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _mainHeaderCss = require("./MainHeader.css");
+var _weatherWidget = require("../WeatherWidget/WeatherWidget");
+var _weatherWidgetDefault = parcelHelpers.interopDefault(_weatherWidget);
+var _placeholderMainLogoPng = require("url:../../assets/images/placeholder-main-logo.png");
+var _placeholderMainLogoPngDefault = parcelHelpers.interopDefault(_placeholderMainLogoPng);
+const MainHeader = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "main-header",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "main-header-content",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "main-logo",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _placeholderMainLogoPngDefault.default),
+                            alt: "Test Logo"
+                        }, void 0, false, {
+                            fileName: "src/components/MainHeader/MainHeader.js",
+                            lineNumber: 12,
+                            columnNumber: 25
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/MainHeader/MainHeader.js",
+                        lineNumber: 11,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "bottom-line",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "temperature",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _weatherWidgetDefault.default), {
+                                    temperature: 12,
+                                    location: 'Mantova'
+                                }, void 0, false, {
+                                    fileName: "src/components/MainHeader/MainHeader.js",
+                                    lineNumber: 18,
+                                    columnNumber: 29
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/MainHeader/MainHeader.js",
+                                lineNumber: 16,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "date",
+                                children: "luned\xec, 14 aprile 2025"
+                            }, void 0, false, {
+                                fileName: "src/components/MainHeader/MainHeader.js",
+                                lineNumber: 20,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/MainHeader/MainHeader.js",
+                        lineNumber: 15,
+                        columnNumber: 21
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/MainHeader/MainHeader.js",
+                lineNumber: 10,
+                columnNumber: 17
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/components/MainHeader/MainHeader.js",
+            lineNumber: 9,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/MainHeader/MainHeader.js",
+        lineNumber: 8,
+        columnNumber: 9
+    }, undefined);
+};
+_c = MainHeader;
+exports.default = MainHeader;
+var _c;
+$RefreshReg$(_c, "MainHeader");
+
+  $parcel$ReactRefreshHelpers$7640.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./MainHeader.css":"gjRq0","../WeatherWidget/WeatherWidget":"2cqFf","url:../../assets/images/placeholder-main-logo.png":"7t7rl","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"gjRq0":[function() {},{}],"2cqFf":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$c6ab = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$c6ab.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c6ab.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _weatherWidgetCss = require("./WeatherWidget.css");
+var _fa = require("react-icons/fa");
+const WeatherWidget = ({ temperature, location })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "weather-widget",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fa.FaCloud), {
+                className: "weather-icon"
+            }, void 0, false, {
+                fileName: "src/components/WeatherWidget/WeatherWidget.js",
+                lineNumber: 8,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "weather-info",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        className: "temperature",
+                        children: [
+                            temperature,
+                            "\xb0"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/WeatherWidget/WeatherWidget.js",
+                        lineNumber: 10,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        className: "location",
+                        children: location
+                    }, void 0, false, {
+                        fileName: "src/components/WeatherWidget/WeatherWidget.js",
+                        lineNumber: 11,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/WeatherWidget/WeatherWidget.js",
+                lineNumber: 9,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/WeatherWidget/WeatherWidget.js",
+        lineNumber: 7,
+        columnNumber: 9
+    }, undefined);
+};
+_c = WeatherWidget;
+exports.default = WeatherWidget;
+var _c;
+$RefreshReg$(_c, "WeatherWidget");
+
+  $parcel$ReactRefreshHelpers$c6ab.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./WeatherWidget.css":"6OpAh","react-icons/fa":"dS1yL","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6OpAh":[function() {},{}],"7t7rl":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("placeholder-main-logo.81dfd3b5.png") + "?" + Date.now();
+
+},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire50e8", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=gazzettamantova-copy.31b563d9.js.map

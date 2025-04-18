@@ -4,8 +4,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://[Aletimo03].github.io/[gazzettamantova-copy]",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,6 +19,7 @@
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.14.4"
   }
 }

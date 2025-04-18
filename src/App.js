@@ -1,21 +1,32 @@
- import React from 'react';
+import React from 'react';
 import Header from './components/Header/Header';
-import MainHeader from './components/MainHeader/MainHeader';
 import NavBar from './components/NavBar/NavBar';
 import MainContent from './components/MainContent/MainContent';
 import Advertisement from './components/Advertisement/Advertisement';
 import Footer from './components/Footer/Footer';
-import MainLayout from "./layouts/MainLayout"; // Import the Footer component
+import MainLayout from "./layouts/MainLayout";
 
 function App() {
     return (
         <div className="app-container">
-            <Header />
-            <div className="content-wrapper">
+            <header>
+                <Header />
+                <NavBar />
+            </header>
+
+            <main className="content-wrapper">
                 <MainLayout />
+                <MainContent/>
+            </main>
+
+
+            <aside>
                 <Advertisement />
-            </div>
-            <Footer />
+            </aside>
+
+            <footer>
+                <Footer />
+            </footer>
         </div>
     );
 }
